@@ -36,6 +36,7 @@ public class AbstractComponents  {
 		wait.until(ExpectedConditions.invisibilityOfElementLocated(byElement));
 	}
 	
+	//just some comment added
 	public OrderHistorypageTest goToOrderHistory() {
 		myorders.click();
 		OrderHistorypageTest orderhistory = new OrderHistorypageTest(driver);
